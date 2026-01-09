@@ -1,0 +1,36 @@
+# Core Speech Processing
+openai-whisper==20231117
+pyaudio==0.2.14
+pyttsx3==2.90
+gTTS==2.5.0
+sounddevice==0.4.6
+scipy==1.11.4
+numpy==1.26.2
+noisereduce==3.0.0
+
+# Configuration
+python-dotenv==1.0.0
+PyYAML==6.0.1
+
+# Local LLM
+ollama==0.1.6
+
+# RAG Dependencies
+langchain==0.1.9
+langchain-community==0.0.24
+chromadb==0.4.22
+sentence-transformers==2.3.1
+transformers==4.37.2
+torch==2.2.0
+
+# Wikipedia
+wikipedia==1.4.0
+
+# GUI Dependencies
+tkinter
+pillow==10.1.0
+customtkinter==5.2.1
+
+# Utilities
+tqdm==4.66.1
+wave==0.0.2

@@ -1,0 +1,87 @@
+[
+  {
+    "source": "FIFA Laws of the Game - Law 1",
+    "category": "field",
+    "content": "The soccer field of play must be rectangular and marked with continuous lines. For international matches, the length must be between 100-110 meters (110-120 yards) and the width between 64-75 meters (70-80 yards). The field is divided into two halves by a halfway line. The center circle has a radius of 9.15 meters (10 yards). The goal area extends 5.5 meters (6 yards) from each goalpost and 5.5 meters into the field. The penalty area extends 16.5 meters (18 yards) from each goalpost and 16.5 meters into the field. A penalty mark is placed 11 meters (12 yards) from the goal line. Corner arcs with a radius of 1 meter (1 yard) are drawn at each corner of the field."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 3",
+    "category": "players",
+    "content": "A soccer match is played by two teams, each consisting of a maximum of eleven players, one of whom must be the goalkeeper. A match cannot start or continue if either team has fewer than seven players. In official competitions organized by FIFA, confederations, or national associations, a maximum of three to five substitutes may be used depending on the competition rules. Substitutes must be named before the start of the match. A player who has been replaced may not take further part in the match. All substitutes are subject to the authority and jurisdiction of the referee whether called upon to play or not. A substitution can only be made during a stoppage in play and with the referee's permission."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 4",
+    "category": "equipment",
+    "content": "The basic compulsory equipment of a player comprises a jersey or shirt with sleeves, shorts, socks, shin guards, and footwear. The two teams must wear colors that distinguish them from each other and also the referee and assistant referees. Each goalkeeper must wear colors that are distinguishable from the other players and match officials. Shin guards must be covered entirely by the socks, be made of suitable material (rubber, plastic, or similar), and provide reasonable protection. Players must not use equipment or wear anything that is dangerous. All items of jewelry (necklaces, rings, bracelets, earrings, leather bands, rubber bands, etc.) are forbidden and must be removed."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 7",
+    "category": "duration",
+    "content": "A soccer match lasts two equal periods of 45 minutes each, unless otherwise mutually agreed between the referee and the two teams. Any agreement to alter the duration of the periods must be made before the start of play. There is a half-time interval which must not exceed 15 minutes. The referee may make allowance for time lost in either period for substitutions, assessment and removal of injured players, wasting time, disciplinary sanctions, medical stoppages, drinks breaks, or any other cause. The allowance for time lost is at the discretion of the referee. If a penalty kick has to be taken or retaken, the half is extended until the penalty kick is completed. Extra time of two equal periods of 15 minutes may be played in knockout competitions if the score is level at the end of normal playing time."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 8",
+    "category": "kickoff",
+    "content": "A kick-off is a way of starting or restarting play at the start of the match, after a goal has been scored, at the start of the second half of the match, and at the start of each period of extra time. A goal may be scored directly from the kick-off. Before a kick-off at the start of the match or extra time, a coin is tossed and the team that wins the toss decides which goal to attack in the first half or to take the kick-off. All players must be in their own half of the field, opponents of the team taking the kick-off must be at least 9.15 meters (10 yards) from the ball until it is in play. The ball must be stationary on the center mark. The ball is in play when it is kicked and clearly moves. A goal cannot be scored if the ball goes directly into the opponent's goal from the kick-off."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 9",
+    "category": "ball_in_out",
+    "content": "The ball is out of play when it has wholly passed over the goal line or touchline on the ground or in the air, when play has been stopped by the referee, or when it touches a match official and remains on the field of play, a team starts a promising attack, or the ball is going into the goal. The ball is in play at all other times when it rebounds off a goalpost, crossbar or corner flagpost and remains on the field of play, and when it rebounds off a match official when they are on the field of play. If the ball becomes defective during the match, play is stopped and restarted by dropping the replacement ball where the original ball became defective. The ball may not be changed during the match without the referee's permission."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 10",
+    "category": "scoring",
+    "content": "A goal is scored when the whole of the ball passes over the goal line, between the goalposts and under the crossbar, provided that no offense has been committed by the team scoring the goal. If the goalkeeper throws the ball directly into the opponents' goal, a goal kick is awarded. If a referee signals a goal before the ball has wholly passed over the goal line, play is restarted with a dropped ball. The team scoring the greater number of goals is the winner. If both teams score an equal number of goals, or if no goals are scored, the match is drawn. When competition rules require a winning team after a drawn match, the only permitted procedures are: away goals rule, two equal periods of extra time not exceeding 15 minutes each, and kicks from the penalty mark."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 11",
+    "category": "offside",
+    "content": "A player is in an offside position if any part of their head, body, or feet is in the opponents' half (excluding the halfway line) and any part of the head, body, or feet is nearer to the opponents' goal line than both the ball and the second-last opponent. The hands and arms of all players, including goalkeepers, are not considered. A player is not in an offside position if level with the second-last opponent or level with the last two opponents. A player in an offside position is only penalized if, at the moment the ball is played or touched by a teammate, the player is involved in active play by interfering with play, interfering with an opponent, or gaining an advantage by playing the ball. There is no offside offense if a player receives the ball directly from a goal kick, throw-in, or corner kick."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 12",
+    "category": "fouls",
+    "content": "A direct free kick is awarded if a player commits any of the following offenses: kicks or attempts to kick an opponent, trips or attempts to trip an opponent, jumps at an opponent, charges an opponent, strikes or attempts to strike an opponent, pushes an opponent, tackles or challenges an opponent, holds an opponent, impedes an opponent with contact, bites or spits at an opponent, throws an object at the ball, opponent or match official, or handles the ball deliberately (except the goalkeeper within their penalty area). A penalty kick is awarded if any of these offenses is committed by a player inside their own penalty area. An indirect free kick is awarded if a goalkeeper inside their penalty area controls the ball with the hand/arm for more than six seconds, touches the ball with the hand/arm after releasing it and before it has touched another player, or touches the ball with the hand/arm from a deliberate kick or throw-in by a teammate."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 12",
+    "category": "cards",
+    "content": "A player is cautioned and shown a yellow card if they commit any of the following offenses: delaying the restart of play, dissent by word or action, entering, re-entering or deliberately leaving the field without the referee's permission, failing to respect the required distance during a corner kick, free kick or throw-in, or persistent offenses. A player is sent off and shown a red card if they commit any of the following offenses: denying the opposing team a goal or an obvious goal-scoring opportunity by a handball, denying an obvious goal-scoring opportunity by an offense which was an attempt to play the ball, serious foul play, biting or spitting at someone, violent conduct, using offensive, insulting or abusive language and/or gestures, or receiving a second yellow card in the same match. A player who receives a red card must leave the vicinity of the field and technical area."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 13",
+    "category": "free_kicks",
+    "content": "Free kicks are either direct or indirect. For both direct and indirect free kicks, the ball must be stationary when the kick is taken and the kicker must not touch the ball again until it has touched another player. A direct free kick is signaled by the referee pointing their arm horizontally towards the goal. A goal can be scored directly from a direct free kick. An indirect free kick is signaled by the referee raising their arm above their head. A goal can only be scored from an indirect free kick if the ball subsequently touches another player before entering the goal. At a free kick, all opponents must be at least 9.15 meters (10 yards) from the ball until it is in play, unless they are on their own goal line between the goalposts. The ball is in play when it is kicked and clearly moves."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 14",
+    "category": "penalty_kick",
+    "content": "A penalty kick is awarded when an offense punishable by a direct free kick is committed by a player inside their own penalty area. The ball must be placed on the penalty mark. The player taking the penalty kick must be clearly identified. The defending goalkeeper must remain on the goal line, facing the kicker, between the goalposts until the ball is kicked. All other players must be inside the field of play, outside the penalty area, behind the penalty mark, and at least 9.15 meters (10 yards) from the penalty mark. The player taking the kick must kick the ball forward and must not play it again until it has touched another player. The ball is in play when it is kicked and clearly moves. The kicker must not feint to kick the ball once they have completed their run-up. When taken during normal time, a penalty kick is awarded as a goal if the ball enters the goal."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 15",
+    "category": "throw_in",
+    "content": "A throw-in is awarded to the opponents of the player who last touched the ball when the whole of the ball passes over the touchline, on the ground or in the air. A goal cannot be scored directly from a throw-in. At the moment of delivering the ball, the thrower must face the field of play, have part of each foot on the touchline or on the ground outside the touchline, throw the ball with both hands from behind and over their head, and throw from the point where it left the field of play. All opponents must stand at least 2 meters (2 yards) from the point on the touchline where the throw-in is to be taken. The ball is in play when it enters the field of play. If the throw-in is not taken correctly, it is awarded to the opposing team."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 16",
+    "category": "goal_kick",
+    "content": "A goal kick is awarded when the whole of the ball passes over the goal line, on the ground or in the air, having last touched a player of the attacking team, and a goal is not scored. A goal may be scored directly from a goal kick, but only against the opposing team. The ball must be stationary and is kicked from any point within the goal area by a player of the defending team. The ball is in play when it is kicked and clearly moves. Opponents must stay outside the penalty area until the ball is in play. The kicker must not play the ball again until it has touched another player. If the ball is not kicked directly out of the penalty area from a goal kick, the kick is retaken."
+  },
+  {
+    "source": "FIFA Laws of the Game - Law 17",
+    "category": "corner_kick",
+    "content": "A corner kick is awarded when the whole of the ball passes over the goal line, on the ground or in the air, having last touched a player of the defending team, and a goal is not scored. A goal may be scored directly from a corner kick, but only against the opposing team. The ball must be placed in the corner area nearest to the point where the ball passed over the goal line. The ball must be stationary and is kicked by a player of the attacking team. The ball is in play when it is kicked and clearly moves. The corner flagpost must not be moved. Opponents must remain at least 9.15 meters (10 yards) from the corner arc until the ball is in play. The kicker must not play the ball again until it has touched another player."
+  },
+  {
+    "source": "FIFA VAR Protocol",
+    "category": "var",
+    "content": "Video Assistant Referee (VAR) is a match official who assists the referee from the video operation room. The VAR can only review situations and decision related to goals, penalty decisions, direct red card incidents, and mistaken identity. The referee makes the final decision. There are two types of reviews: a check where the VAR reviews an incident without a stoppage in play, and a review where the referee delays the restart or stops play to communicate with the VAR. The on-field review allows the referee to review footage on the pitch-side monitor before making a final decision. The referee signals an on-field review by making a TV screen signal with their hands. Players and team officials must not surround the referee or gesture for a VAR review."
+  },
+  {
+    "source": "Soccer Match Officials",
+    "category": "officials",
+    "content": "A soccer match is controlled by a referee who has full authority to enforce the Laws of the Game. The referee's decisions regarding facts connected with play are final and can only be changed if play has not restarted or the match has not been terminated. Two assistant referees may be appointed whose duties include indicating when the ball has gone out of play, which team is entitled to a corner kick, goal kick or throw-in, when a player may be penalized for being in an offside position, and when misconduct or any other incident occurs out of the view of the referee. A fourth official may be appointed and their duties include assisting with substitution procedures, checking players' equipment, and providing additional time information. In competitions using VAR, additional assistant referees or video assistant referees may be appointed."
+  }
+]

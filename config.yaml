@@ -1,0 +1,53 @@
+# PIXEL BUDDY Configuration with Wikipedia
+
+system:
+  name: "PIXEL BUDDY"
+  domain: soccer
+  log_conversations: true
+
+stt:
+  model: base
+  duration: 5
+  sample_rate: 16000
+  language: en
+
+nlp:
+  mode: local              # Using local Ollama
+  use_rag: true            # RAG enabled
+  model: llama2
+  max_tokens: 300
+  rag_chunks: 3
+
+tts:
+  method: pyttsx3
+  rate: 150
+  volume: 0.9
+
+# ====== NEW SECTION: DATASET CONFIGURATION ======
+datasets:
+  # Local JSON files
+  local_datasets:
+    - datasets/soccer_rules.json
+
+  
+  # Wikipedia topics to fetch (adds world knowledge!)
+  wikipedia_topics:
+    - Laws of the Game (association football)
+    - Offside (association football)
+    - Penalty kick (association football)
+    - Fouls and misconduct (association football)
+    - Free kick (association football)
+    - Corner kick
+    - Goal kick
+    - Throw-in
+    - Penalty shoot-out (association football)
+    - Football pitch
+    - Video assistant referee
+    - Goalkeeper (association football)
+ 
+  
+ 
+  # Settings
+  enable_wikipedia: true      # Enable Wikipedia
+  cache_wikipedia: true       # Cache articles locally
+  max_wikipedia_length: 3000  # Characters per article

@@ -1,0 +1,24 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Large AI Models (Too big for GitHub!)
+*.gguf
+*.bin
+models/
+
+# Database files (Generated automatically)
+chroma_db/
+chroma.sqlite3
+
+# Results and Logs (Optional: keep if you want to show results)
+experiment_metrics.csv
+# results/ 
+
+# OS junk
+.DS_Store
