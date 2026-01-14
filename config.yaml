@@ -15,8 +15,8 @@ nlp:
   mode: local              # Using local Ollama
   use_rag: true            # RAG enabled
   model: llama2
-  max_tokens: 300
-  rag_chunks: 3
+  max_tokens: 150
+  rag_chunks: 1
 
 tts:
   method: pyttsx3
@@ -33,21 +33,8 @@ datasets:
   # Wikipedia topics to fetch (adds world knowledge!)
   wikipedia_topics:
     - Laws of the Game (association football)
-    - Offside (association football)
-    - Penalty kick (association football)
-    - Fouls and misconduct (association football)
-    - Free kick (association football)
-    - Corner kick
-    - Goal kick
-    - Throw-in
-    - Penalty shoot-out (association football)
-    - Football pitch
-    - Video assistant referee
-    - Goalkeeper (association football)
  
-  
- 
-  # Settings
-  enable_wikipedia: true      # Enable Wikipedia
-  cache_wikipedia: true       # Cache articles locally
+    # Settings
+  enable_wikipedia: true     # Enable Wikipedia
+  cache_wikipedia: true      # Cache articles locally
   max_wikipedia_length: 3000  # Characters per article
