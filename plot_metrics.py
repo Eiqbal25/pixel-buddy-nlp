@@ -6,7 +6,7 @@ import os
 def plot_metrics(csv_file="experiment_metrics.csv"):
     # --- CONFIGURATION ---
     # Define the specific results folder path
-    results_dir = r"C:\Pixel Buddy Soccer Assistant - worldwide\results"
+    results_dir = r"C:\Pixel Buddy Soccer Assistant\results"
     
     # Create the folder if it doesn't exist
     if not os.path.exists(results_dir):
