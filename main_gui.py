@@ -48,7 +48,8 @@ class PixelBuddyGUI:
     def __init__(self):
         """Initialize PIXEL BUDDY GUI"""
         import queue
-
+        self.startup_start_time = time.time()
+        print(f"⏱️  Startup timer started at: {datetime.now().strftime('%H:%M:%S')}")    
         self.tts_queue = queue.Queue()
         self.tts_thread = Thread(target=self.tts_worker, daemon=True)
         self.tts_thread.start()
@@ -295,6 +296,14 @@ class PixelBuddyGUI:
                 volume=self.config['tts']['volume']
             )
             
+            # --- NEW: CALCULATE STARTUP TIME ---
+            startup_duration = time.time() - self.startup_start_time
+            print(f"\n🚀 SYSTEM READY in {startup_duration:.2f} seconds!")
+            
+            # Optional: Display it in the chat for the user to see
+            self.add_message("system", f"⚡ System started in {startup_duration:.2f}s. Ready for input!\n")
+            # -----------------------------------
+
             self.init_status.set("✅ Ready! Ask me about soccer!")
             self.add_message("system", "✅ All systems ready! How can I help you today?\n")
             
