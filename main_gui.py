@@ -605,6 +605,8 @@ Need anything else? Just ask! I'm here to help! 🚀⚽"""
     def _process_query_thread(self, text, input_type, stt_duration):
         """Process query in background thread"""
         nlp_time = 0
+        tts_estimated_time = 0  # Initialize variable
+        
         try:
             # Check if skipped before processing
             if self.skip_current:
@@ -612,14 +614,14 @@ Need anything else? Just ask! I'm here to help! 🚀⚽"""
                 self.skip_btn.configure(state="disabled")
                 return
             
-            print(f"[DEBUG] Processing query: {text}")  # Debug
+            print(f"[DEBUG] Processing query: {text}")
             
             # Get response from NLP
             start_nlp = time.time()
             response = self.nlp.process(text)
             nlp_time = time.time() - start_nlp
             
-            print(f"[DEBUG] Got response: {response[:100]}...")  # Debug
+            print(f"[DEBUG] Got response: {response[:100]}...")
             
             # Check if skipped after processing
             if self.skip_current:
@@ -637,19 +639,26 @@ Need anything else? Just ask! I'm here to help! 🚀⚽"""
             if not self.is_speaking:
                 self.init_status.set("✅ Ready! Ask me about soccer!")
             
-            print(f"[DEBUG] About to speak response...")  # Debug
+            print(f"[DEBUG] About to speak response...")
             
             # ALWAYS speak response in separate thread (unless skipped)
             if self.tts and not self.is_closing and not self.skip_current:
                 clean_response = self.remove_emojis(response)
-                print(f"[DEBUG] Clean response: {clean_response[:100]}...")  # Debug
+                print(f"[DEBUG] Clean response: {clean_response[:100]}...")
                 
+                # --- NEW: CALCULATE TTS DURATION ---
+                # Calculate seconds based on word count and configured rate
+                word_count = len(clean_response.split())
+                speech_rate = self.config['tts'].get('rate', 150) # Default to 150 wpm if missing
+                tts_estimated_time = (word_count / speech_rate) * 60.0
+                # -----------------------------------
+
                 # Start speech thread
                 speech_thread = Thread(target=self.speak_async, args=(clean_response,), daemon=True)
                 speech_thread.start()
-                print(f"[DEBUG] Speech thread started")  # Debug
+                print(f"[DEBUG] Speech thread started")
             else:
-                print(f"[DEBUG] Speech skipped - TTS: {self.tts}, closing: {self.is_closing}, skip: {self.skip_current}")
+                print(f"[DEBUG] Speech skipped")
                 self.skip_btn.configure(state="disabled")
             
         except Exception as e:
@@ -662,8 +671,8 @@ Need anything else? Just ask! I'm here to help! 🚀⚽"""
             self.skip_btn.configure(state="disabled")
 
         try:
-            # We treat TTS time as 0 here because it happens asynchronously
-            total_time = stt_duration + nlp_time 
+            # Add the estimated TTS time to the total
+            total_time = stt_duration + nlp_time + tts_estimated_time
             
             if nlp_time > 0:
                 self.logger.log(
@@ -671,11 +680,11 @@ Need anything else? Just ask! I'm here to help! 🚀⚽"""
                     query_length=len(text),
                     stt_time=stt_duration,
                     nlp_time=nlp_time,
-                    tts_time=0, 
+                    tts_time=tts_estimated_time,  # <--- NOW SAVES REAL NUMBER
                     total_time=total_time,
                     tts_success=True
                 )
-                print(f"📊 Metrics logged: NLP {nlp_time:.2f}s")
+                print(f"📊 Metrics logged: NLP {nlp_time:.2f}s, TTS {tts_estimated_time:.2f}s")
         except Exception as e:
             print(f"❌ Logging error: {e}")
     
